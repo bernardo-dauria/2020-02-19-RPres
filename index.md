@@ -3,15 +3,22 @@ index
 author: Bernardo D'Auria
 date: February 19th, 2020
 autosize: true
+font-import: https://fonts.googleapis.com/css?family=Akronim&display=swap
+font-family: 'Akronim'
+
+<!-- https://bernardo-dauria.github.io/2020-02-19-RPres/ -->
 
 First Slide
 ========================================================
+type: alert
+incremental: false
 
 For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+<li class="fragment fade-in" data-fragment-index="1">Bullet 1</li>
+<li class="fragment fade-in" data-fragment-index="3">Bullet 2</li>
+<li class="fragment fade-out" data-fragment-index="2">Bullet 3</li>
+<li class="fragment fade-in" data-fragment-index="2">Bullet 4</li>
 
 Slide With Code
 ========================================================
@@ -35,3 +42,10 @@ Slide With Plot
 ========================================================
 
 ![plot of chunk unnamed-chunk-2](index-figure/unnamed-chunk-2-1.png)
+
+Plotly graph
+========================================================
+
+
+
+<iframe frameborder="0" seamless='seamless' scrolling=no width=576px height=576px src="plotly.html"></iframe>
