@@ -3,7 +3,7 @@ index
 author: Bernardo D'Auria
 date: February 19th, 2020
 autosize: true
-font-import: https://fonts.googleapis.com/css?family=Akronim&display=swap
+font-import: https://fonts.googleapis.com/css?family=Akronim
 font-family: 'Akronim'
 
 <!-- https://bernardo-dauria.github.io/2020-02-19-RPres/ -->
